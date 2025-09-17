@@ -16,7 +16,7 @@ namespace WCFZene
     {
         public string DeleteEloado(int id)
         {
-            throw new NotImplementedException();
+            return new EloadoController().EloadoTorlese(id);
         }
 
         public List<Eloado> GetEloadok()
