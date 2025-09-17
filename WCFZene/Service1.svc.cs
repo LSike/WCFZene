@@ -26,12 +26,12 @@ namespace WCFZene
 
         public string InsertEloado(Eloado eloado)
         {
-            throw new NotImplementedException();
+            return new EloadoController().EloadoFevitele(eloado);
         }
 
         public string UpdateEloado(Eloado eloado)
         {
-            throw new NotImplementedException();
+            return new EloadoController().EloadoModositasa(eloado);
         }
     }
 }
